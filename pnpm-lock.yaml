@@ -84,6 +84,9 @@ importers:
       prettier:
         specifier: ^3.4.2
         version: 3.6.2
+      tsx:
+        specifier: ^4.20.3
+        version: 4.20.3
       typescript:
         specifier: 5.7.3
         version: 5.7.3
@@ -3439,7 +3442,6 @@ packages:
 
   libsql@0.4.7:
     resolution: {integrity: sha512-T9eIRCs6b0J1SHKYIvD8+KCJMcWZ900iZyxdnSCdqxN12Z1ijzT+jY5nrk72Jw4B0HGzms2NgpryArlJqvc3Lw==}
-    cpu: [x64, arm64, wasm32]
     os: [darwin, linux, win32]
 
   lines-and-columns@1.2.4:
@@ -9751,7 +9753,7 @@ snapshots:
   tsx@4.20.3:
     dependencies:
       esbuild: 0.25.11
-      get-tsconfig: 4.8.1
+      get-tsconfig: 4.12.0
     optionalDependencies:
       fsevents: 2.3.3
 
